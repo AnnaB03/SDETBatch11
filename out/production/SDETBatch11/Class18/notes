@@ -1,0 +1,11 @@
+Constructors:
+is special block of code that help us build/construct (giving initial values to the fields) the object;
+1.when we write new ClassName() this is he code that executes the constructor for that class.
+2.when we do not write a constructor - a default constructor is provided by Java compiler.
+3.If there are multiple constructors in a class -
+Java will check the number of parameters, type of parameters and sequence of parameters.
+4.Rules:
+-Constructors have same name as the class name
+-don't have a return types, not even void
+-this() to invoke the other constructors of the same class
+-this can be used to differentiate local and instance variables

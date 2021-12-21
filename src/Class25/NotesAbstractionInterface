@@ -1,0 +1,36 @@
+Abstract class:
+They are classes with the abstract keyword that we use when
+we are not sure how to implement the some or all methods.
+
+Rules:
+1) Must participate in inheritance otherwise we will not be able to use any instance methods or
+fields.
+2) Abstract class can have 0 or any number of abstract methods
+3) As soon as one method is declared abstract, the class needs to be declared as abstract
+4) we can have non-abstract methods as well inside the abstract class
+5) we can declare a class as abstract class even without any abstract methods.
+6) Abstract keyword cannot be used with fields and constructor.
+7) We need a child class to provide implementation of abstract methods.
+8) When we extend an abstract class we must either provide the implementation of
+all unimplemented methods or we must declare that child class abstract also.
+9) we can extend only one class in java abstract or non-abstract
+
+Interface :
+Interface is collection of public static final variables(constants) and
+public abstract methods plus static default and private methods from java 8 and 9.
+It's a contract that a class has to implement.
+
+Rules:
+1) Can only public static final fields.
+2) As there are no instance fields in interfaces they don't have constructors as well.
+3) We can not create objects of interfaces because they can have unimplemented methods
+4) a class can not extend an interface but it is implemented by a class
+5) An interface can extend another interface
+6) An interface can extend multiple interfaces it means interface support
+multiple inheritance.
+
+Encapsulation:
+Encapsulation is using data(variables/fields) and
+code(methods) together as a single unit.
+Create your fields private and make getter setter methods to access those fields.
+getter and setter methods are used to access and update the value of a private variable.

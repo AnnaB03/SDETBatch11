@@ -1,0 +1,26 @@
+Eclipse workspace= Intellij Project
+projects=Modules
+ArrayList:
+ArrayList is class in collections framework that helps us store,delete, retrieve and manage
+data easily as compared to Arrays. It has many built-in methods to manipulate the data
+Two Types of lists
+ArrayList LinkedList:
+ArrayList:
+ArrayList used Arrays internally to store and manipulate the data.
+When to use ArrayList:
+when you have to retrieve the data mostly use ArrayLists
+LinkedList:
+When we have to write the data in-between or in front of the list most of the
+time we should use LinkedList.
+Properties of List(ArrayLis,LinkedList):
+1) To maintain the insertion order
+2) We can insert duplicate data as well
+=============================
+Set
+They can't have duplicate values;
+LinkedHashSet
+no duplicates Maintain the order
+HashSet
+no duplicates its Fast but no order
+TreeHashSet
+no duplicates plus data is sorted

@@ -1,0 +1,4 @@
+Abstraction in Java is a process that hide implementation details
+and show functionality to the user.
+Abstract classes:
+Abstract classes in java are classes with abstract keyword.

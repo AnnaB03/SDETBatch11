@@ -1,0 +1,31 @@
+Overloading:
+When same name method is existing in class multiple times with different number of parameters
+or diff sequence of parameters or diff data types
+then it is called method overloading.
+- Benefits:
+Cleanliness of code
+Flexible code
+Easy for end user
+
+-Rules:
+1.Access modifiers (public,private,etc..) do not play any role in method overloading.
+2.Non-access modifiers (static,final,etc..) do not play any role in method overloading.
+3.Method return types also don't play any role in method overloading we can't overload- a method by just changing the return type.
+4.Method names must be same if we want to overload a method.
+5.Parameters should be diff for each method either in number or in sequence or in data types.
+6.We can overload a constructor,private methods, main method.
+=====================================================================
+
+Overriding:
+Overrriding happens when same methods exists in parent and child class.
+Benefits:
+-We can have specific implementation for a method that is already defined in the Parent class.
+-That we have this flexibility that we don't have to come up with diff names if we doing same thing again in child class.
+Rules:
+-We can change the access modifiers in child class but we can make it only less restrictive for ex. we can change
+protected or default or public but we cannot do the reverse.(we can increase the visibility but we cannot decrese it)
+-Static methods have the same rules but we use a diff terminology we say we are re-declaring a method instead of overriding.
+-Return types must be same in overriding.
+-name must be same
+-parameters should be same
+-we cannot override a private method/field or constructor because they don't participate in inheritance.

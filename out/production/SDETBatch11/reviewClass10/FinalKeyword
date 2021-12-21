@@ -1,0 +1,5 @@
+Final Keyword:
+    1)Final keyword is used to restrict the programmers.
+    2)when we use it with variables we can't change their values once they are initialized.
+    3)we can override those variables for example i can have same name variable in the child
+    class without caring about the access/non-access modifiers

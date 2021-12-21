@@ -1,0 +1,7 @@
+Rules for casting object/classes
+1) We can store a child class object inside a parent type variable because
+inheritance is one way from Parent to child
+2) we can create arrays of type Perent and store all the object of child classes inside than
+array then we can write loops to call all the method from all the classes.
+3) We can not store/cast a parent class object to child class variable but if parent type
+variable already contains the child object then we can get it back ny casting it,
